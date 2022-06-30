@@ -10,16 +10,43 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
       <div>
-        <img src="" alt="" id="header-img" />
+        <img src="" alt="logo" id="header-img" />
       </div>
       <nav id="nav-bar">
         <ul>
-          <a href="#features"><li class="nav-link">Features</li></a>
-          <a href="#how-it-works"><li class="nav-link">How It Works</li></a>
-          <a href="#pricing"><li class="nav-link">Pricing</li></a>
+          <li>
+            <a class="nav-link" href="#features"> Features </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
         </ul>
       </nav>
     </header>
+    <main>
+      <section id="features"></section>
+      <section id="how-it-works"></section>
+      <section id="pricing"></section>
+      <section>
+        <video src="" id="video"></video>
+      </section>
+
+      <section class="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
 
     <script src="js/index.js"></script>
   </body>

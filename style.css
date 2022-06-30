@@ -1,0 +1,41 @@
+#header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+#header div img{
+  margin: 1rem 0rem;
+}
+
+#nav-bar ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#nav-bar ul li{
+  margin: 0rem 1rem;
+}
+
+#submit{
+  padding: 0.5rem 5rem;
+  margin-top: 1rem;
+}
+
+.form{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#form{
+  /* width: 20%; */
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}
